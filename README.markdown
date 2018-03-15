@@ -3,7 +3,7 @@ A [Giter8][g8] template for AWS Lambda trigger examples in Java 8.
 # How to use
 ---
 You can import the template using
-`<Write command to import template>`
+`sbt new knoldus/aws-lambda-trigger-examples.g8`
 
 You need to create jar of the project. You can create a jar using the following command -
 `mvn clean package`
@@ -55,6 +55,7 @@ Whenever the lambda is triggered (except through API Gateway), it sends an E-mai
 - TO - Email to send the mail to(Must be Amazon SES verified)
 
 Once set, you are ready to go!
+
 # Template license
 ---
 Written in 2018 by [Knoldus Inc.](http://www.knoldus.com)
